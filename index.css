@@ -14,9 +14,24 @@ body {
 
 .heading{
     height: 98vh;
-    background-image: linear-gradient(to right bottom, #9a6af9dd, #05beabb6), url(./Resources/jewel.jpg);
+    background-image: linear-gradient(to right bottom, #9a6af9e2, #05beabe7), url(./Resources/jewel.jpg);
     background-size: cover;
     background-position: center;
     clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
+
+
+}
+.heading-part-1{
+    top: 50%;
+    left: 50%;
+    transform: translate(50%, 200px);
+    display: block;
+
+}
+.heading-part-2{
+    top: 50%;
+    left: 50%;
+    transform: translate(700px, 220px);
+    display: block;
 
 }
