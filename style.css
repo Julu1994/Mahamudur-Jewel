@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overscroll-behavior: unset; }
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #fbfef6; }
+
+.heading {
+  height: 98vh;
+  background-image: linear-gradient(to right bottom, #9a6af9e2, #05beabe7), url(./Resources/jewel.jpg);
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%); }
+
+.heading-part-1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(50%, 200px);
+  display: block; }
+
+.heading-part-2 {
+  top: 50%;
+  left: 50%;
+  transform: translate(700px, 220px);
+  display: block; }
+
+.secondSec {
+  width: 100%;
+  display: flex;
+  justify-content: center; }
+
+.skillSection {
+  background-color: aqua;
+  width: 50%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; }
+
+.html {
+  background-color: blue;
+  width: 80px;
+  height: 80px;
+  margin: 50px; }
+
+.css {
+  background-color: #91227b;
+  width: 80px;
+  height: 80px;
+  margin: 50px; }
+
+.js {
+  background-color: #359552;
+  width: 80px;
+  height: 80px;
+  margin: 50px; }
+
+.react {
+  background-color: #ffc400;
+  width: 80px;
+  height: 80px;
+  margin: 50px; }
+
+.node {
+  background-color: #c78fee;
+  width: 80px;
+  height: 80px;
+  margin: 50px; }
+
+.mongo {
+  background-color: #1f1f2b;
+  width: 80px;
+  height: 80px;
+  margin: 50px; }
+
+.redux {
+  background-color: #d57755;
+  width: 80px;
+  height: 80px;
+  margin: 50px; }
+
+.aws {
+  background-color: #0f6159;
+  width: 80px;
+  height: 80px;
+  margin: 50px; }

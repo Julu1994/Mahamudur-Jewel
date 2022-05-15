@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 
+
 }
 
 body {
@@ -33,5 +34,81 @@ body {
     left: 50%;
     transform: translate(700px, 220px);
     display: block;
+
+}
+.secondSec{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.skillSection{
+    background-color: aqua;
+    width: 50%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.html{
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+    margin: 50px;
+
+}
+.css{
+    background-color: rgb(145, 34, 123);
+    width: 80px;
+    height: 80px;
+    margin: 50px;
+
+
+}
+
+.js{
+    background-color: rgb(53, 149, 82);
+    width: 80px;
+    height: 80px;
+    margin: 50px;
+
+}
+.react{
+    background-color: rgb(255, 196, 0);
+    width: 80px;
+    height: 80px;
+    margin: 50px;
+
+}
+.node {
+    background-color: rgb(199, 143, 238);
+    width: 80px;
+    height: 80px;
+    margin: 50px;
+
+}
+
+.mongo{
+    background-color: rgb(31, 31, 43);
+    width: 80px;
+    height: 80px;
+    margin: 50px;
+
+}
+
+.redux{
+    background-color: rgb(213, 119, 85);
+    width: 80px;
+    height: 80px;
+    margin: 50px;
+
+}
+.aws{
+    background-color: rgb(15, 97, 89);
+    width: 80px;
+    height: 80px;
+    margin: 50px;
 
 }
