@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  overscroll-behavior: unset; }
+  box-sizing: border-box; }
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -44,48 +43,49 @@ body {
 
 .html {
   background-color: blue;
-  width: 80px;
-  height: 80px;
+  width: 180px;
+  height: 180px;
   margin: 50px; }
 
 .css {
-  background-color: #91227b;
-  width: 80px;
-  height: 80px;
+  background-image: url(./Resources/css.png);
+  background-position: center;
+  width: 180px;
+  height: 180px;
   margin: 50px; }
 
 .js {
   background-color: #359552;
-  width: 80px;
-  height: 80px;
+  width: 180px;
+  height: 180px;
   margin: 50px; }
 
 .react {
   background-color: #ffc400;
-  width: 80px;
-  height: 80px;
+  width: 180px;
+  height: 180px;
   margin: 50px; }
 
 .node {
   background-color: #c78fee;
-  width: 80px;
-  height: 80px;
+  width: 180px;
+  height: 180px;
   margin: 50px; }
 
 .mongo {
   background-color: #1f1f2b;
-  width: 80px;
-  height: 80px;
+  width: 180px;
+  height: 180px;
   margin: 50px; }
 
 .redux {
   background-color: #d57755;
-  width: 80px;
-  height: 80px;
+  width: 180px;
+  height: 180px;
   margin: 50px; }
 
 .aws {
   background-color: #0f6159;
-  width: 80px;
-  height: 80px;
+  width: 180px;
+  height: 180px;
   margin: 50px; }

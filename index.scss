@@ -5,6 +5,12 @@
 
 
 }
+@mixin skillG {
+    width: 180px;
+    height: 180px;
+    margin: 50px;
+
+}
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -54,61 +60,45 @@ body {
 
 .html{
     background-color: blue;
-    width: 80px;
-    height: 80px;
-    margin: 50px;
+    @include skillG;
 
 }
 .css{
-    background-color: rgb(145, 34, 123);
-    width: 80px;
-    height: 80px;
-    margin: 50px;
+    background-position: center;
+    @include skillG;
 
 
 }
 
 .js{
     background-color: rgb(53, 149, 82);
-    width: 80px;
-    height: 80px;
-    margin: 50px;
+    @include skillG;
 
 }
 .react{
     background-color: rgb(255, 196, 0);
-    width: 80px;
-    height: 80px;
-    margin: 50px;
+    @include skillG;
 
 }
 .node {
     background-color: rgb(199, 143, 238);
-    width: 80px;
-    height: 80px;
-    margin: 50px;
+    @include skillG;
 
 }
 
 .mongo{
     background-color: rgb(31, 31, 43);
-    width: 80px;
-    height: 80px;
-    margin: 50px;
+    @include skillG;
 
 }
 
 .redux{
     background-color: rgb(213, 119, 85);
-    width: 80px;
-    height: 80px;
-    margin: 50px;
+    @include skillG;
 
 }
 .aws{
     background-color: rgb(15, 97, 89);
-    width: 80px;
-    height: 80px;
-    margin: 50px;
+    @include skillG;
 
 }
