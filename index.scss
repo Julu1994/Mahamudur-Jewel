@@ -23,18 +23,19 @@ body {
 
 
 }
-// .heading-part-1{
-//     transform: translate(50%, 200px);
-//     display: block;
+.heading-part-1{
+    width: 50px;
+    transform: translate(50%, 200px);
+    display: block;
 
-// }
-// .heading-part-2{
-//     // top: 50%;
-//     // left: 50%;
-//     // transform: translate(700px, 220px);
-//     display: block;
+}
+.heading-part-2{
+    top: 50%;
+    left: 50%;
+    transform: translate(700px, 220px);
+    display: block;
 
-// }
+}
 .skillSec{
     width: 100%;
     display: flex;
