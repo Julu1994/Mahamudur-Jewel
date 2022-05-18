@@ -6,86 +6,40 @@
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400;
-  line-height: 1.7;
   color: #fbfef6; }
 
 .heading {
+  width: 100%;
   height: 98vh;
-  background-image: linear-gradient(to right bottom, #9a6af9e2, #05beabe7), url(./Resources/jewel.jpg);
+  background-image: linear-gradient(to right bottom, #9a6af9e2, #05beabe7), url(./Resources/header.jpeg);
   background-size: cover;
   background-position: center;
   clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%); }
 
-.heading-part-1 {
-  top: 50%;
-  left: 50%;
-  transform: translate(50%, 200px);
-  display: block; }
-
-.heading-part-2 {
-  top: 50%;
-  left: 50%;
-  transform: translate(700px, 220px);
-  display: block; }
-
-.secondSec {
+.skillSec {
   width: 100%;
   display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.sHeading {
+  font-size: 20px;
+  color: black;
   justify-content: center; }
 
-.skillSection {
-  background-color: aqua;
-  width: 50%;
-  height: 500px;
+.skillDiv {
+  background-color: rgba(186, 198, 202, 0.198);
+  width: 60%;
+  height: 350px;
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
 
-.html {
-  background-color: blue;
-  width: 180px;
-  height: 180px;
+.skill {
+  width: 80px;
+  height: 80px;
   margin: 50px; }
 
-.css {
-  background-image: url(./Resources/css.png);
-  background-position: center;
-  width: 180px;
-  height: 180px;
-  margin: 50px; }
-
-.js {
-  background-color: #359552;
-  width: 180px;
-  height: 180px;
-  margin: 50px; }
-
-.react {
-  background-color: #ffc400;
-  width: 180px;
-  height: 180px;
-  margin: 50px; }
-
-.node {
-  background-color: #c78fee;
-  width: 180px;
-  height: 180px;
-  margin: 50px; }
-
-.mongo {
-  background-color: #1f1f2b;
-  width: 180px;
-  height: 180px;
-  margin: 50px; }
-
-.redux {
-  background-color: #d57755;
-  width: 180px;
-  height: 180px;
-  margin: 50px; }
-
-.aws {
-  background-color: #0f6159;
-  width: 180px;
-  height: 180px;
-  margin: 50px; }
+.sImg {
+  width: 50px;
+  height: 50px; }
