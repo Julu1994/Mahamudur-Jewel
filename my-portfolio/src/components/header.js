@@ -3,7 +3,7 @@ import React from "react";
 
 function Header() {
     return (
-        <div class="heading">
+        <div className="heading">
             <div class="header_box">
                 <h1>
                     <span class="heading-part-1">
