@@ -22,46 +22,65 @@
     transform: translate(-50%, -50%);
 }
 .heading-part-1 {
-    display: block;
-    font-size: 30px;
-    color: #fff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-
-}
-
-.heading-part-2 {
-    width: 180px;
+    width: 410px;
     display: block;
     font-size: 30px;
     color: #fff;
     white-space: nowrap;
-    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    border-right: 2px solid rgba(255, 255, 255, 0.966);
     overflow: hidden;
 
+
+}
+
+.heading-part-2 {
+    width: 410px;
+    display: block;
+    font-size: 30px;
+    color: #fff;
+    animation: fade-in-out infinite alternate;
+    animation-duration: 5s;
+    animation-delay: 5s;
+    visibility: hidden;
+    
+    
 }
 
 .animate {
     
     animation: typewriter 4s steps(40) 1s 1 normal both,
     blinkTextCursor 500ms steps(40) infinite normal;
-    animation-delay: 3.5s;
+    
 
 }
+.animate {
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
 
-@keyframes typewriter {
-    from {
-        width: 0;
+        to {
+            width: 400px;
+        }
     }
-    to {
-        width: 345px;
+
+    @keyframes blinkTextCursor {
+        from {
+            border-right-color: rgba(255, 255, 255, 0.986);
+
+        }
+
+        to {
+            border-right-color: transparent
+        }
     }
 }
-@keyframes blinkTextCursor {
-    from {
-        border-right-color: rgba(255, 255, 255, 0.75);
 
+@keyframes fade-in-out {
+    0% {
+        opacity: 0 ;
     }
-    to {
-        border-right-color: transparent
+    100%{opacity: 1;
+        visibility: visible;
     }
 }
