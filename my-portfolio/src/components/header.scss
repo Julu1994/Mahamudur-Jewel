@@ -17,7 +17,7 @@
 }
 .header_box {
     position: absolute;
-    top: 40%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -30,8 +30,38 @@
 }
 
 .heading-part-2 {
+    width: 180px;
     display: block;
     font-size: 30px;
     color: #fff;
+    white-space: nowrap;
+    border-right: 2px solid rgba(255, 255, 255, 0.75);
+    overflow: hidden;
 
+}
+
+.animate {
+    
+    animation: typewriter 4s steps(40) 1s 1 normal both,
+    blinkTextCursor 500ms steps(40) infinite normal;
+    animation-delay: 3.5s;
+
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 345px;
+    }
+}
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, 0.75);
+
+    }
+    to {
+        border-right-color: transparent
+    }
 }

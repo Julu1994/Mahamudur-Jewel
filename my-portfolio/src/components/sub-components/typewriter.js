@@ -13,7 +13,7 @@ function Typewriter({ props }) {
         const TimeOut = setTimeout(() => {
             setCurrentType((value) => value + props.charAt(index.current));
             index.current += 1;
-        }, 1000);
+        }, 100);
         return () => {
             clearTimeout(TimeOut);
         };

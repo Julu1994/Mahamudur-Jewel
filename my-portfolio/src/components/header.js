@@ -1,15 +1,15 @@
 import "./header.scss";
-import React from "react";
+import Typewriter from "./sub-components/typewriter";
 
 function Header() {
     return (
         <div className="heading">
-            <div class="header_box">
+            <div className="header_box">
                 <h1>
-                    <span class="heading-part-1">
-                        Hi.. I am Mahamudur Rahamn
+                    <span className="heading-part-1">
+                        <Typewriter props={"HHi.. I am Mahamudur Rahman"} />
                     </span>
-                    <span class="heading-part-2">
+                    <span className="heading-part-2 animate">
                         I am a full-stack developer
                     </span>
                 </h1>
