@@ -1,0 +1,83 @@
+.card-box{
+    perspective: 150rem;
+    width: 25%;
+    height: 25rem;
+    position: relative;
+    
+
+
+    &__A{
+            width: 100%;
+            height: 25rem;
+            background-color: #c2bdbd;
+            margin: 3rem;
+            transition: all 1s ease;
+            position: absolute;
+            top:0;
+            left:0;
+            backface-visibility: hidden;
+            box-shadow: 0 1.5rem 4rem rgb(12, 11, 11);
+            
+            &--front{
+                background-color: #c2bdbd;
+
+            }
+            &--back{
+                background-image: linear-gradient(to right bottom, rgb(170, 136, 172), rgb(156, 236, 236));
+                transform: rotateY(180deg);
+
+            }
+
+    }
+    &:hover &__A--front{
+        transform: rotateY(180deg)
+    }
+
+    &:hover &__A--back {
+        transform: rotateY(0deg)
+    }
+}
+
+.card-top{
+    width: 100%;
+    height: 2rem;
+    background-color: rgb(209, 218, 221);
+    display:flex;
+}
+
+.red{
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color:rgb(228, 72, 72);
+    margin: 0.3rem 0.3rem;
+    border-radius: 50%;
+}
+.yellow {
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: rgb(250, 197, 21);
+    margin: 0.3rem 0.3rem;
+    border-radius: 50%;
+}
+.green {
+    width: 0.9rem;
+    height: 0.9rem;
+    background-color: rgb(0, 211, 70);
+    margin: 0.3rem 0.3rem;
+    border-radius: 50%;
+}
+.card-heading{
+    font-size: 1rem;
+    color: rgb(239, 255, 253);
+    margin: .4rem 0rem;
+    left: 50%;
+    transform: translateX(80%);
+
+}
+
+.card-pic{
+    width: 100%;
+    height: 80%;
+   
+    margin-top:  3%;
+}
