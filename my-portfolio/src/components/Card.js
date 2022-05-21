@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./sub-components/button";
 import "./Card.scss";
 
 function Card({ pic, name, title, details }) {
@@ -15,7 +16,9 @@ function Card({ pic, name, title, details }) {
                 <p>{details}</p>
             </div>
 
-            <div className="card-box__A card-box__A--back"></div>
+            <div className="card-box__A card-box__A--back">
+                <Button />
+            </div>
         </div>
     );
 }
