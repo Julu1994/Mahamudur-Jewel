@@ -1,6 +1,8 @@
 import React from "react";
 import Button from "./sub-components/button";
 import "./Card.scss";
+import { FaGithub } from "react-icons/fa";
+import { GrOverview } from "react-icons/gr";
 
 function Card({ pic, name, title, details }) {
     return (
@@ -17,7 +19,8 @@ function Card({ pic, name, title, details }) {
             </div>
 
             <div className="card-box__A card-box__A--back">
-                <Button />
+                <Button props={<FaGithub />} />
+                <Button props={<GrOverview />} />
             </div>
         </div>
     );

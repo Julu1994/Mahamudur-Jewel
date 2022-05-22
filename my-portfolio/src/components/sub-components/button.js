@@ -1,10 +1,10 @@
 import React from "react";
 import "./button.scss";
-function Button() {
+function Button({ props }) {
     return (
         <div className="btn-div">
             <a href="http://localhost:3000/" className="card-btn btn-white">
-                Live Demo
+                {props}
             </a>
         </div>
     );
