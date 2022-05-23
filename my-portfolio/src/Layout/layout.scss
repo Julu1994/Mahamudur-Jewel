@@ -2,18 +2,24 @@
     margin:0;
 }
 .card-grid-header{
-    width: 100%;
+    width: 10%;
     height: 4rem;
-    display: flex;
-    justify-content: center;
+    margin: 10vh auto;
+
     
 
 }
-.grid-header-bar{
-    width: 2%;
-    height: 0.3rem;
-    background: rgb(7, 8, 8);
+.card-grid-header-text{
+    text-align: center;
 }
+.grid-header-bar{
+    width: 40%;
+    height: 0.3rem;
+    margin: 0.2rem auto;
+    background: rgb(7, 8, 8);
+
+}
+
 .card-grid{
     margin: 8rem 15em 2rem 15rem;
     max-width: 100%;
