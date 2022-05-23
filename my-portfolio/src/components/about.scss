@@ -1,0 +1,26 @@
+.about-div{
+    width: 60%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 2.2fr 0.8fr;
+    grid-column-gap: 2rem;
+    margin: 35vh auto;
+}
+
+.about-left-side{
+    height: 60vh;
+}
+.about-left-info{
+    font-size: 1.3rem;
+    word-spacing: 0.3rem;
+}
+
+.about-right-side {
+    height: 35vh;
+}
+
+.about-pic{
+    width: 100%;
+    height: 100%;
+
+}

@@ -2,6 +2,7 @@ import React from "react";
 import "./layout.scss";
 import Header from "../components/header";
 import Card from "../components/Card";
+import About from "../components/about";
 import notePic from "../components/resources/noteIMG.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -67,6 +68,9 @@ function Layout() {
                     name="This App will manage your daily notes virtually"
                     details="#Full-stack  #React #Express #MongoDB "
                 />
+            </div>
+            <div>
+                <About />
             </div>
         </div>
     );
