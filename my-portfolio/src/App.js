@@ -7,7 +7,12 @@ function App() {
     return (
         <div className="App">
             <Header />
-            <Card title="STICKY NOTES" pic={notePic} />
+            <Card
+                title="STICKY NOTES"
+                pic={notePic}
+                name="This App will manage your daily notes virtually"
+                details="#Full-stack  #React #Express #MongoDB "
+            />
         </div>
     );
 }

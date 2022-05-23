@@ -6,8 +6,8 @@ import { GrOverview } from "react-icons/gr";
 
 function Card({ pic, name, title, details }) {
     return (
-        <div className="card-box">
-            <div className="card-box__A card-box__A--front">
+        <div className="card-container">
+            <div className="card-container__body card-container__body--front">
                 <div className="card-top">
                     <span className="red"></span>
                     <span className="yellow"></span>
@@ -15,12 +15,20 @@ function Card({ pic, name, title, details }) {
                     <h2 className="card-heading">{title}</h2>
                 </div>
                 <img src={pic} alt="toppic" className="card-pic" />
-                <p>{details}</p>
             </div>
 
-            <div className="card-box__A card-box__A--back">
-                <Button props={<FaGithub />} />
-                <Button props={<GrOverview />} />
+            <div className="card-container__body card-container__body--back">
+                <div className="back-header">
+                    <h2 class Name="app-name">
+                        {name}
+                    </h2>
+
+                    <h3 className="app-info">{details}</h3>
+                </div>
+                <div className="back-btn-div">
+                    <Button props={<FaGithub />} />
+                    <Button props={<GrOverview />} />
+                </div>
             </div>
         </div>
     );
