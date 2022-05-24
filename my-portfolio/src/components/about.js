@@ -20,32 +20,6 @@ function About() {
                     call myself a full-stack developer. Here are a few
                     technologies I’ve been working with recently :
                 </p>
-                <ul className="skill-list">
-                    <li className="skill-item">
-                        <RiCodeBoxFill className="skill-icon" />
-                        JavaScript (ES6)
-                    </li>
-                    <li className="skill-item">
-                        <RiCodeBoxFill className="skill-icon" />
-                        NodeJS
-                    </li>
-                    <li className="skill-item">
-                        <RiCodeBoxFill className="skill-icon" />
-                        React
-                    </li>
-                    <li className="skill-item">
-                        <RiCodeBoxFill className="skill-icon" />
-                        Redux
-                    </li>
-                    <li className="skill-item">
-                        <RiCodeBoxFill className="skill-icon" />
-                        Typescript
-                    </li>
-                    <li className="skill-item">
-                        <RiCodeBoxFill className="skill-icon" />
-                        AWS
-                    </li>
-                </ul>
             </div>
             <div className="about-right-side"></div>
         </div>

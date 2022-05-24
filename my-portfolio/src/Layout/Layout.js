@@ -3,6 +3,7 @@ import "./layout.scss";
 import Header from "../components/header";
 import Card from "../components/Card";
 import About from "../components/about";
+import Skills from "../components/skills";
 import Contact from "../components/Contact";
 import notePic from "../components/resources/noteIMG.png";
 import AOS from "aos";
@@ -73,6 +74,11 @@ function Layout() {
             <div data-aos="slide-right" data-aos-duration="2000">
                 <About />
             </div>
+
+            <div className="skill-sec">
+                <Skills />
+            </div>
+
             <div>
                 <Contact />
             </div>
