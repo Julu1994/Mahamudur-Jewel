@@ -3,6 +3,7 @@ import "./layout.scss";
 import Header from "../components/header";
 import Card from "../components/Card";
 import About from "../components/about";
+import Contact from "../components/Contact";
 import notePic from "../components/resources/noteIMG.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -69,8 +70,11 @@ function Layout() {
                     details="#Full-stack  #React #Express #MongoDB "
                 />
             </div>
-            <div>
+            <div data-aos="slide-right" data-aos-duration="2000">
                 <About />
+            </div>
+            <div>
+                <Contact />
             </div>
         </div>
     );

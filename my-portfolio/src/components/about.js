@@ -1,28 +1,53 @@
 import React from "react";
 import "./about.scss";
-import jewe2 from "./resources/jewel2.png";
+import { RiCodeBoxFill } from "react-icons/ri";
 
 function About() {
     return (
         <div className="about-div">
-            <div className="about-left-side">
-                <h2 className="about-left-header">About Me</h2>
+            <div className="about-header">
+                <h2 className="about-header-text">About Me</h2>
+            </div>
+            <div className="about-left-content">
                 <p className="about-left-info">
-                    I was born and grew up in Bangladesh and it's been a while
-                    since I moved to Copenhagen, Denmark. I am lucky enough to
-                    realize the mismatch between my passion and academic field
-                    before it's getting too late and have the courage to move in
-                    the right direction, which leads me to become a full-stack
-                    developer. I have experience with building websites and web
-                    applications.When I am not at work, I love working out at
-                    the gym and feel guilty when I do not follow my fitness
-                    routine. I also love traveling, learning about new cultures,
-                    meeting new people, and listening to their stories.
+                    Hi! My name is Mahamudur Rahman Jewel and I love creating
+                    things that live on the internet. My interest in programming
+                    started back in 2019 when I decided to explore how a webpage
+                    workes, which leads me to get myself admitted into a online
+                    course on Python. Since then I stared to switch my careed
+                    path to programming from business administration which is my
+                    academic field. Now I have enough experience and skillls to
+                    call myself a full-stack developer. Here are a few
+                    technologies I’ve been working with recently :
                 </p>
+                <ul className="skill-list">
+                    <li className="skill-item">
+                        <RiCodeBoxFill className="skill-icon" />
+                        JavaScript (ES6)
+                    </li>
+                    <li className="skill-item">
+                        <RiCodeBoxFill className="skill-icon" />
+                        NodeJS
+                    </li>
+                    <li className="skill-item">
+                        <RiCodeBoxFill className="skill-icon" />
+                        React
+                    </li>
+                    <li className="skill-item">
+                        <RiCodeBoxFill className="skill-icon" />
+                        Redux
+                    </li>
+                    <li className="skill-item">
+                        <RiCodeBoxFill className="skill-icon" />
+                        Typescript
+                    </li>
+                    <li className="skill-item">
+                        <RiCodeBoxFill className="skill-icon" />
+                        AWS
+                    </li>
+                </ul>
             </div>
-            <div className="about-right-side">
-                <img src={jewe2} alt=".." className="about-pic" />
-            </div>
+            <div className="about-right-side"></div>
         </div>
     );
 }
