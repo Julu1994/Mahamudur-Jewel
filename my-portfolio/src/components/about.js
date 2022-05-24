@@ -1,6 +1,5 @@
 import React from "react";
 import "./about.scss";
-import { RiCodeBoxFill } from "react-icons/ri";
 
 function About() {
     return (
@@ -17,8 +16,7 @@ function About() {
                     course on Python. Since then I stared to switch my careed
                     path to programming from business administration which is my
                     academic field. Now I have enough experience and skillls to
-                    call myself a full-stack developer. Here are a few
-                    technologies I’ve been working with recently :
+                    call myself a full-stack developer.
                 </p>
             </div>
             <div className="about-right-side"></div>

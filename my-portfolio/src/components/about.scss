@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
+
 .about-div{
     width: 55%;
-    height: 100vh;
+    height: 60vh;
     display: grid;
     grid-template-columns: 2.2fr .8fr;
     grid-template-rows: 0.2fr 2.8fr 3fr;
     grid-column-gap: 2rem;
-    margin: 35vh auto -40vh auto;
+    margin: 15vh auto ;
 
 }
 .about-header {
@@ -18,10 +20,11 @@
     grid-row: span 2
 }
 .about-left-info{
-    font-family: fantasy;
+    font-family: 'Dosis',
+    sans-serif;
     font-size: 1.3rem;
     word-spacing: 0.3rem;
-    color: rgb(83, 160, 220);
+    color: rgb(142, 143, 129);
 }
 
 .about-right-side {
