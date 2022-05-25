@@ -11,6 +11,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
 
+import a from "../components/resources/programmers.png";
+
 function Layout() {
     useEffect(() => {
         AOS.init();
@@ -98,6 +100,9 @@ function Layout() {
                 </div>
             </section>
             <section className="copyright">
+                <div className="funny-copyright">
+                    <image src={a} />
+                </div>
                 <div>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
