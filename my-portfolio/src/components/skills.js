@@ -11,7 +11,12 @@ function Skills() {
                 </h1>
             </div>
             <div className="skill-div-a">
-                <div className="js"></div>
+                <div className="logo js"></div>
+                <div className="logo mongodb"></div>
+                <div className="logo node"></div>
+                <div className="logo react"></div>
+                <div className="logo aws"></div>
+                <div className="logo ts"></div>
             </div>
         </div>
     );

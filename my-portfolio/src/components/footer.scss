@@ -1,0 +1,29 @@
+.footer2{
+    animation: FAnimate 1s ease-in-out infinite;
+}
+.delay0{
+    animation-delay: 0s;
+}
+.delay1{
+    animation-delay: 0.1s;
+}
+.delay2{
+    animation-delay: 0.2s;
+}
+
+@keyframes FAnimate {
+    0% {
+        transform: translateY(0em);
+
+    }
+
+    60% {
+        transform: translateY(-0.6em);
+
+    }
+
+    100% {
+        transform: translateY(0em);
+
+    }
+}

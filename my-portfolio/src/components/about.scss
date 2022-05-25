@@ -1,41 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap');
 
 .about-div{
-    width: 55%;
+    width: 60%;
     height: 60vh;
     display: grid;
     grid-template-columns: 2.2fr .8fr;
     grid-template-rows: 0.2fr 2.8fr 3fr;
     grid-column-gap: 2rem;
-    margin: 15vh auto ;
+    margin: 5vh auto ;
+
 
 }
-.about-header {
-    grid-column: span 2;
-    color: rgba(19, 79, 111, 0.671);
-}
+
 
 .about-left-content{
     height: 50vh;
-    grid-row: span 2
+    grid-row: span 2;
+
 }
 .about-left-info{
     font-family: 'Dosis',
     sans-serif;
+    padding: 5%;
     font-size: 1.3rem;
     word-spacing: 0.3rem;
-    color: rgb(142, 143, 129);
+    color: rgb(99, 99, 92);
+    background-image: url(./resources/paper2.webp);
+    background-position: top;
+    box-shadow: 0 1.5rem 4rem rgb(12, 11, 11);
+    border-radius: 1rem;
 }
 
 .about-right-side {
     height: 35vh;
     grid-row: span 1;
     background-image: linear-gradient(rgba(22, 176, 83, 0.516), rgba(103, 205, 142, 0.482)), url(./resources/jewel2.png);
-
     background-size: cover;
     background-position: center;
     border-radius: 3%;
     position: relative;
+
 }
 
 .about-right-side::after {
@@ -43,12 +47,14 @@
         display: inline-block;
         height: 100%;
         width: 100%;
+        background-color: rgba(196, 208, 244, 0.413);
         position: absolute;
         top: 12%;
         left: 12%;
         z-index: -1;
         transition: all 0.8s;
         border: solid 8px rgb(12, 11, 11);
+        box-shadow: 0 1.5rem 4rem rgb(12, 11, 11);
         border-radius: 3%;
 }
 

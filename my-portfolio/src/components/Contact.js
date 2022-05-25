@@ -3,13 +3,29 @@ import "./Contact.scss";
 
 function Contact() {
     return (
-        <div>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-                <path
-                    fill="#00cba9"
-                    fill-opacity="1"
-                    d="M0,288L34.3,245.3C68.6,203,137,117,206,112C274.3,107,343,181,411,213.3C480,245,549,235,617,202.7C685.7,171,754,117,823,85.3C891.4,53,960,43,1029,74.7C1097.1,107,1166,181,1234,213.3C1302.9,245,1371,235,1406,229.3L1440,224L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path>
-            </svg>
+        <div className="contact-div">
+            <div className="contact-info">
+                <div className="contact-email">
+                    <div className="contact-header">
+                        <span>G</span>
+                        <span>e</span>
+                        <span>t </span>
+                        <span className="wave"></span>
+                        <span>I</span>
+                        <span>n</span>
+                        <span className="wave"></span>
+                        <span>T</span>
+                        <span>o</span>
+                        <span>u</span>
+                        <span>c</span>
+                        <span>h</span>
+                    </div>
+                    <p className="contact-para">
+                        Wanna team up ? My inbox is always open, let's talk..{" "}
+                    </p>
+                    <h3 className="my-mail">mrjewel837@gmail.com</h3>
+                </div>
+            </div>
         </div>
     );
 }

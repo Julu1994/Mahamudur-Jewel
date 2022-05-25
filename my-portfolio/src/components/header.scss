@@ -22,6 +22,7 @@
     transform: translate(-50%, -50%);
 }
 .heading-part-1 {
+
     width: 410px;
     display: block;
     font-size: 30px;
@@ -34,7 +35,7 @@
 }
 
 .heading-part-2 {
-    width: 410px;
+    width: 100%;
     display: block;
     font-size: 30px;
     color: #fff;
@@ -60,7 +61,7 @@
         }
 
         to {
-            width: 400px;
+            width: 100%;
         }
     }
 

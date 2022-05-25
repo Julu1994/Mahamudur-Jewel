@@ -1,25 +1,60 @@
 .skill-div {
     width: 70%;
-    height: 80vh;
+    height: 60vh;
     background-color: rgba(175, 148, 175, 0.212);
     margin: 0 auto;
+    border-radius: 1rem;
+    box-shadow: 0 1.5rem 4rem rgb(12, 11, 11);
+    transition: all .5s;
+}
+.skill-div:hover{
+
+    transform: translateY(-3%);
+    box-shadow: 0 1.2rem 3rem rgb(32, 29, 29);
 }
 
 .skill-heading{
     width: 90%;
-    height: 10vh;
+    height: 5vh;
     margin: 0 auto;
-    background-color: rgb(228, 220, 236);
     padding-top: 2%;
+    
 }
 .skill-div-a{
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
 }
-.js{
+.logo{
     margin-top: 2rem;
     width: 6rem;
     height: 6rem;
-    background-image:  url(./resources/javascript.png);
+    margin: 4rem 1rem;
+    border-radius: 12%;
+}
+.js{
+        background-image: url(./resources/javascript.png);
+}
+.node{
+        background-image: linear-gradient(rgba(120, 147, 170, 0.185), rgb(141, 141, 175)),
+        url(./resources/nodejs.png);
+}
+.ts{
+        background-image: url(./resources/ts.png);
+}
+.react{
+        background-image: linear-gradient(rgba(129, 30, 146, 0.198), rgba(120, 154, 185, 0.274)),
+        url(./resources/react.png);
 }
 
+.mongodb{
+        background-image: linear-gradient(rgba(129, 30, 146, 0.198), rgba(120, 154, 185, 0.274)),
+        url(./resources/mongo.png);
+
+
+}
+.aws{
+    background-image: linear-gradient(rgba(129, 30, 146, 0.198), rgba(120, 154, 185, 0.274)),
+    url(./resources/aws.png);
+}
