@@ -6,12 +6,11 @@ import About from "../components/about";
 import Skills from "../components/skills";
 import Contact from "../components/Contact";
 import Footer from "../components/footer";
+import Navbar from "../components/navbar";
 import notePic from "../components/resources/noteIMG.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
-
-import a from "../components/resources/programmers.png";
 
 function Layout() {
     useEffect(() => {
@@ -19,7 +18,10 @@ function Layout() {
     }, []);
     return (
         <div className="layout-div">
-            <Header />
+            <div className="nav-header">
+                <Navbar />
+                <Header />
+            </div>
             <div className="card-grid-header">
                 <h2
                     data-aos="fade-right"
@@ -91,7 +93,7 @@ function Layout() {
                 <Skills />
             </div>
 
-            <section className="contact-footer">
+            <section id="contact-footer">
                 <div className="contact-main">
                     <Contact />
                 </div>
@@ -100,16 +102,14 @@ function Layout() {
                 </div>
             </section>
             <section className="copyright">
-                <div className="funny-copyright">
-                    <image src={a} />
-                </div>
+                <div className="funny-copyright"></div>
                 <div>
                     <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 1440 320">
                         <path
                             fill="#5001ac"
-                            fill-opacity="0.7"
+                            fillOpacity="0.7"
                             d="M0,96L26.7,128C53.3,160,107,224,160,218.7C213.3,213,267,139,320,138.7C373.3,139,427,213,480,245.3C533.3,277,587,267,640,250.7C693.3,235,747,213,800,176C853.3,139,907,85,960,101.3C1013.3,117,1067,203,1120,250.7C1173.3,299,1227,309,1280,282.7C1333.3,256,1387,192,1413,160L1440,128L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path>
                     </svg>
                 </div>

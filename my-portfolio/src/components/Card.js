@@ -19,9 +19,7 @@ function Card({ pic, name, title, details }) {
 
             <div className="card-container__body card-container__body--back">
                 <div className="back-header">
-                    <h2 class Name="app-name">
-                        {name}
-                    </h2>
+                    <h2 className="app-name">{name}</h2>
 
                     <h3 className="app-info">{details}</h3>
                 </div>

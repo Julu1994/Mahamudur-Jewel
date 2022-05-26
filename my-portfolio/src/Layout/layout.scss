@@ -3,6 +3,9 @@
     margin:0;
 
 }
+.nav-header{
+    position: relative;
+}
 .card-grid-header{
     width: 10%;
     height: 4rem;
@@ -44,7 +47,7 @@
     letter-spacing: 0.2rem;
 }
 
-.contact-footer{
+#contact-footer{
     width: 100%;
     display: grid;
     grid-template-columns: 2.9fr .1fr;
