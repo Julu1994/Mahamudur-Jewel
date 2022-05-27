@@ -20,7 +20,6 @@ function Layout() {
         <div className="layout-div">
             <Navbar />
             <Header />
-
             <div className="card-grid-header">
                 <h2
                     data-aos="fade-right"
@@ -87,11 +86,9 @@ function Layout() {
                     <About />
                 </div>
             </div>
-
             <div className="skill-sec">
                 <Skills />
             </div>
-
             <section id="contact-footer">
                 <div className="contact-main">
                     <Contact />

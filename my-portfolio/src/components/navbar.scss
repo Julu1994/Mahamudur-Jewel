@@ -1,6 +1,7 @@
 
 .nav{
     &__icon{
+        font-size: 3rem;
         background-color: azure;
         width: 4.5rem;
         height: 4.5rem;
@@ -9,6 +10,13 @@
         top: 2.5rem;
         right: 2.5rem;
         z-index: 3;
+
+        &__sign{
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+            position: absolute;
+        }
 
 
 
@@ -79,4 +87,5 @@
 
 
     }
+
 }
