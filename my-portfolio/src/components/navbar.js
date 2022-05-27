@@ -12,6 +12,10 @@ function Navbar() {
                 <div className="nav__icon">
                     {nabvarr ? (
                         <TiDelete
+                            style={{
+                                fontSize: "6.5rem",
+                                color: "purple",
+                            }}
                             className="nav__icon__sign"
                             onClick={showNavabr}
                         />
