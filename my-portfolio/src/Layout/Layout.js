@@ -18,10 +18,9 @@ function Layout() {
     }, []);
     return (
         <div className="layout-div">
-            <div className="nav-header">
-                <Navbar />
-                <Header />
-            </div>
+            <Navbar />
+            <Header />
+
             <div className="card-grid-header">
                 <h2
                     data-aos="fade-right"
