@@ -7,7 +7,12 @@ import Skills from "../components/skills";
 import Contact from "../components/Contact";
 import Footer from "../components/footer";
 import Navbar from "../components/navbar";
-import notePic from "../components/resources/noteIMG.png";
+import notePic from "../components/resources/stikynote1.webp";
+import ecommarce from "../components/resources/ecommarceapp.png";
+import fooddelivery from "../components/resources/foodordering2.png";
+import countrylist from "../components/resources/countrylist.jpg";
+import portfolio from "../components/resources/portfolio.avif";
+import game from "../components/resources/simongame.jpeg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -18,85 +23,131 @@ function Layout() {
     }, []);
     return (
         <div className="layout-div">
-            <Navbar />
-            <Header />
-            <div className="card-grid-header">
-                <h2
+            {/* Header Section*/}
+            <section id="Header-Section">
+                <Navbar />
+                <Header />
+            </section>
+
+            {/* Portfolio Projects Section */}
+            <section id="Project-Section" className="section bg-color1">
+                {/* Project Header */}
+                <div className="card-grid-header">
+                    <h2
+                        data-aos="fade-right"
+                        data-aos-duration="2000"
+                        className="card-grid-header-text">
+                        MY PROJECTS
+                    </h2>
+                    <div
+                        data-aos="fade-left"
+                        data-aos-duration="2000"
+                        className="grid-header-bar"></div>
+                </div>
+
+                {/* Projects */}
+                <div
                     data-aos="fade-right"
                     data-aos-duration="2000"
-                    className="card-grid-header-text">
-                    MY PROJECTS
-                </h2>
-                <div
-                    data-aos="fade-left"
-                    data-aos-duration="2000"
-                    className="grid-header-bar"></div>
-            </div>
-            <div
-                data-aos="fade-right"
-                data-aos-duration="2000"
-                data-aos-delay="200"
-                className="card-grid">
-                <Card
-                    title="STICKY NOTES"
-                    pic={notePic}
-                    name="This App will manage your daily notes virtually"
-                    details="#Full-stack  #React #Express #MongoDB "
-                />
-                <Card
-                    title="STICKY NOTES"
-                    pic={notePic}
-                    name="This App will manage your daily notes virtually"
-                    details="#Full-stack  #React #Express #MongoDB "
-                />
-                <Card
-                    title="STICKY NOTES"
-                    pic={notePic}
-                    name="This App will manage your daily notes virtually"
-                    details="#Full-stack  #React #Express #MongoDB "
-                />
-                <Card
-                    title="STICKY NOTES"
-                    pic={notePic}
-                    name="This App will manage your daily notes virtually"
-                    details="#Full-stack  #React #Express #MongoDB "
-                />
-                <Card
-                    title="STICKY NOTES"
-                    pic={notePic}
-                    name="This App will manage your daily notes virtually"
-                    details="#Full-stack  #React #Express #MongoDB "
-                />
-                <Card
-                    title="STICKY NOTES"
-                    pic={notePic}
-                    name="This App will manage your daily notes virtually"
-                    details="#Full-stack  #React #Express #MongoDB "
-                />
-            </div>
-            <div>
-                <div
-                    data-aos="fade-up"
-                    data-aos-delay="500"
-                    data-aos-duration="2500"
-                    className="about-header">
-                    <h2 className="about-header-text">About Me</h2>
+                    data-aos-delay="200"
+                    className="card-grid">
+                    <Card
+                        title="STICKY NOTES"
+                        pic={notePic}
+                        details="It's a full-stack project.  "
+                    />
+                    <Card
+                        title="E-COMMARCE APP"
+                        pic={ecommarce}
+                        details="#Full-stack  #React #Express #MongoDB "
+                    />
+                    <Card
+                        title="FOOD DELIVERY APP"
+                        pic={fooddelivery}
+                        details="#Full-stack  #React #Express #MongoDB "
+                    />
+                    <Card
+                        title="COUNTRY LIST"
+                        pic={countrylist}
+                        details="#Full-stack  #React #Express #MongoDB "
+                    />
+                    <Card
+                        title="PORTFOLIO WEBPAGE"
+                        pic={portfolio}
+                        details="#Full-stack  #React #Express #MongoDB "
+                    />
+                    <Card
+                        title="SIMON GAME"
+                        pic={game}
+                        details="#Full-stack  #React #Express #MongoDB "
+                    />
                 </div>
+            </section>
+
+            {/* About Me Section*/}
+            <section id="About-Me" className="section bg-colo2">
+                {/* About Me Header */}
+                <div className="card-grid-header">
+                    <h2
+                        data-aos="fade-right"
+                        data-aos-duration="2000"
+                        className="card-grid-header-text">
+                        About Me
+                    </h2>
+                    <div
+                        data-aos="fade-left"
+                        data-aos-duration="2000"
+                        className="grid-header-bar"></div>
+                </div>
+
+                {/* About */}
                 <div data-aos="slide-right" data-aos-duration="3000">
                     <About />
                 </div>
-            </div>
-            <div className="skill-sec">
-                <Skills />
-            </div>
-            <section id="contact-footer">
-                <div className="contact-main">
-                    <Contact />
+            </section>
+
+            {/* Skill Section */}
+            <section id="My-Skill" className="section bg-color1">
+                {/* Skill Header */}
+                <div className="card-grid-header">
+                    <h2
+                        data-aos="fade-right"
+                        data-aos-duration="2000"
+                        className="card-grid-header-text">
+                        Skills & Tools
+                    </h2>
+                    <div
+                        data-aos="fade-left"
+                        data-aos-duration="2000"
+                        className="grid-header-bar"></div>
                 </div>
-                <div className="footer-main">
-                    <Footer />
+
+                {/* Skills */}
+                <div className="skill-sec">
+                    <Skills />
                 </div>
             </section>
+
+            {/* Contact Section */}
+            <section id="contact-footer">
+                {/* Contact Header */}
+                <div className="card-grid-header">
+                    <h2
+                        data-aos="fade-right"
+                        data-aos-duration="2000"
+                        className="card-grid-header-text">
+                        Get In Touch
+                    </h2>
+                    <div
+                        data-aos="fade-left"
+                        data-aos-duration="2000"
+                        className="grid-header-bar"></div>
+                </div>
+
+                {/* Contact */}
+            </section>
+
+            {/* Copyright  */}
             <section className="copyright">
                 <div className="funny-copyright"></div>
                 <div>

@@ -1,0 +1,10 @@
+$primary: #faf9f9;
+$secondary: #ffffff;
+$fontcolor: rgb(103, 116, 115);
+
+@mixin center-position {
+            position: absolute;
+            top: 50%;
+            left:50%;
+            transform: translate(-50%, -50%);
+}
