@@ -12,12 +12,14 @@
 .card-grid {
     max-width: 60%;
     margin: 0 auto;
-    height: 60rem;
     display: grid;
-    grid-template-columns: repeat(3fr);
-    grid-row-gap: 2rem;
-    grid-column-gap: 2rem;
-    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem ;
+    margin-bottom: 4rem;
+
+
 }
 
 .bg-color1{
@@ -29,9 +31,9 @@
 
 
 .card-grid-header{
-    width: 10%;
-    height: 4rem;
-    margin: 5vh auto;
+    width: 30%;
+    height: 2rem;
+    margin: 1.5rem auto;
 
     
 
@@ -40,7 +42,7 @@
     text-align: center;
 }
 .grid-header-bar{
-    width: 40%;
+    width: 15%;
     height: 0.3rem;
     margin: 0.2rem auto;
     background: rgb(7, 8, 8);
@@ -60,25 +62,5 @@
     letter-spacing: 0.2rem;
 }
 
-#contact-footer{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 2.9fr .1fr;
-    justify-content: center;
-    
 
-}
 
-.footer-main{
-    height: 30vh;
-    background-color: rgb(193, 181, 181);
-    font-size: 3rem;
-    color: rgba(107, 136, 210, 0.975);
-    border-radius: 10px;
-    transform: translateY(60%);
-}
-.funny-copyright{
-    width: 30%;
-    height: 40vh;
-
-}

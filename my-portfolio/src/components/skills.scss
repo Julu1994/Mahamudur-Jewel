@@ -1,24 +1,27 @@
+@import "./mixin_var.scss";
 .skill-div {
     width: 70%;
-    height: 60vh;
-    background-color: rgba(175, 148, 175, 0.212);
+    height: 20rem;
+    
     margin: 0 auto;
     border-radius: 1rem;
-    box-shadow: 0 1.5rem 4rem rgb(12, 11, 11);
-    transition: all .5s;
+    transition: all 3s;
 }
 .skill-div:hover{
 
     transform: translateY(-3%);
-    box-shadow: 0 1.2rem 3rem rgb(32, 29, 29);
+    box-shadow: 0 1.2rem 3rem rgb(89, 85, 92);
 }
 
 .skill-heading{
-    width: 90%;
-    height: 5vh;
-    margin: 0 auto;
+    text-align: center;
+    color: $fontcolor;
+    height: 2rem;
     padding-top: 2%;
     
+}
+.skill-heading-text1{
+    display: inline-block;
 }
 .skill-div-a{
     width: 100%;

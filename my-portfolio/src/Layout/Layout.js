@@ -5,7 +5,6 @@ import Card from "../components/Card";
 import About from "../components/about";
 import Skills from "../components/skills";
 import Contact from "../components/Contact";
-import Footer from "../components/footer";
 import Navbar from "../components/navbar";
 import notePic from "../components/resources/stikynote1.webp";
 import ecommarce from "../components/resources/ecommarceapp.png";
@@ -54,32 +53,33 @@ function Layout() {
                     <Card
                         title="STICKY NOTES"
                         pic={notePic}
-                        details="It's a full-stack project.  "
+                        details="It's a full-stack project, using Nodejs and Express in the backend, 
+                        MongoDB as database, and React on the front-end "
                     />
                     <Card
                         title="E-COMMARCE APP"
                         pic={ecommarce}
-                        details="#Full-stack  #React #Express #MongoDB "
+                        details="It's frontend application, using React and Redux. "
                     />
                     <Card
                         title="FOOD DELIVERY APP"
                         pic={fooddelivery}
-                        details="#Full-stack  #React #Express #MongoDB "
+                        details=" Its a fontend appplication, using React, Redux and MongoDB as database."
                     />
                     <Card
                         title="COUNTRY LIST"
                         pic={countrylist}
-                        details="#Full-stack  #React #Express #MongoDB "
+                        details=" Its a fontend application using React and Redux"
                     />
                     <Card
                         title="PORTFOLIO WEBPAGE"
                         pic={portfolio}
-                        details="#Full-stack  #React #Express #MongoDB "
+                        details="Its a portfolio webpage using React and Sass"
                     />
                     <Card
                         title="SIMON GAME"
                         pic={game}
-                        details="#Full-stack  #React #Express #MongoDB "
+                        details=" Its the classic Simon game, using Javascript and CSS"
                     />
                 </div>
             </section>
@@ -129,7 +129,7 @@ function Layout() {
             </section>
 
             {/* Contact Section */}
-            <section id="contact-footer">
+            <section id="contact-footer" className="section">
                 {/* Contact Header */}
                 <div className="card-grid-header">
                     <h2
@@ -145,6 +145,9 @@ function Layout() {
                 </div>
 
                 {/* Contact */}
+                <div>
+                    <Contact />
+                </div>
             </section>
 
             {/* Copyright  */}

@@ -2,6 +2,7 @@
 .card-container{
     // perspective: 150rem;
     position: relative;
+    height: 15rem;
 
     
 
@@ -15,6 +16,7 @@
             left:0;
             backface-visibility: hidden;
             box-shadow: 5px 7px 15px -1px rgba(0, 0, 0, 0.28);
+            overflow: hidden;
 
             
             
@@ -32,8 +34,7 @@
             }
             &--back{
                 background-color: $secondary ;                
-                transform: rotateY(180deg);
-                justify-content: center;
+                transform: rotateY(-180deg);
                 border-radius: 1rem;
 
                 
@@ -101,21 +102,29 @@
 }
 
 .back-header {
-    width: 90%;
-    height: 50%;
-    display: block;
+
     position: absolute;
-    background-color: violet;
+    width: 90%;
+    top: 10%;
+    left: 5%;
+
     color: $fontcolor;
-    margin: 0;
     
 }
 .app-info{
+    margin: 0 auto;
+    font-size: 1rem;
+    line-height: 1.5rem;
 
 }
 .back-btn-div{
-    position: block;
-    display: flex;
+    
+    position: absolute;
+    height: 50%;
+    width: 90%;
+    top: 60%;
+    left: 5%;
+    text-align: center;
 
 
 }

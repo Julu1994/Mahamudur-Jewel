@@ -1,7 +1,8 @@
 .btn-div{
-    width: 20%;
-    height: 10%;
-    margin: 2rem 3rem;
+    width: 30%;
+    height: 25%;
+    margin: 0 1rem;
+    display: inline-block;
 }
 
 .card-btn:link,
@@ -13,7 +14,7 @@
     height: 100%;
     text-decoration: none;
     display: inline-block;
-    border-radius: 100px;
+    border-radius: 2rem;
     position:relative;
 }
 .card-btn:hover{
@@ -25,7 +26,7 @@
     box-shadow: 0 5px 10px rgb(50, 44, 44);
 }
 .btn-white{
-    background-color: rgb(254, 254, 254);
+    background-color: #a2a2d0;
     color: rgb(50, 46, 46);
 }
 
@@ -45,7 +46,7 @@
 
 }
 .btn-white::after {
-    background-color: rgb(255, 255, 255);
+    background-color: #a2a2d0;
 
 }
 

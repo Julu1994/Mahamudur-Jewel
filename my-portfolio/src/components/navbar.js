@@ -35,22 +35,20 @@ function Navbar() {
                             <ul className="nav__list" onClick={showNavabr}>
                                 <li className="nav__item">
                                     <a
-                                        href="#contact-footer"
+                                        href="#Header-Section"
                                         className="nav__link">
                                         Home
                                     </a>
                                 </li>
                                 <li className="nav__item">
                                     <a
-                                        href="#contact-footer"
+                                        href="#Project-Section"
                                         className="nav__link">
                                         Projects
                                     </a>
                                 </li>
                                 <li className="nav__item">
-                                    <a
-                                        href="#contact-footer"
-                                        className="nav__link">
+                                    <a href="#About-Me" className="nav__link">
                                         About
                                     </a>
                                 </li>
