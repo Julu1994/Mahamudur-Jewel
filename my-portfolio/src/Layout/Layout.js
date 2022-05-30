@@ -31,57 +31,59 @@ function Layout() {
 
             {/* Portfolio Projects Section */}
             <section id="Project-Section" className="section bg-color1">
-                {/* Project Header */}
-                <div className="card-grid-header">
-                    <h2
+                <div className="grid-container">
+                    {/* Project Header */}
+                    <div className="card-grid-header">
+                        <h2
+                            data-aos="fade-right"
+                            data-aos-duration="2000"
+                            className="card-grid-header-text">
+                            MY PROJECTS
+                        </h2>
+                        <div
+                            data-aos="fade-left"
+                            data-aos-duration="2000"
+                            className="grid-header-bar"></div>
+                    </div>
+
+                    {/* Projects */}
+                    <div
                         data-aos="fade-right"
                         data-aos-duration="2000"
-                        className="card-grid-header-text">
-                        MY PROJECTS
-                    </h2>
-                    <div
-                        data-aos="fade-left"
-                        data-aos-duration="2000"
-                        className="grid-header-bar"></div>
-                </div>
-
-                {/* Projects */}
-                <div
-                    data-aos="fade-right"
-                    data-aos-duration="2000"
-                    data-aos-delay="200"
-                    className="card-grid">
-                    <Card
-                        title="STICKY NOTES"
-                        pic={notePic}
-                        details="It's a full-stack project, using Nodejs and Express in the backend, 
+                        data-aos-delay="200"
+                        className="card-grid">
+                        <Card
+                            title="STICKY NOTES"
+                            pic={notePic}
+                            details="It's a full-stack project, using Nodejs and Express in the backend, 
                         MongoDB as database, and React on the front-end "
-                    />
-                    <Card
-                        title="E-COMMARCE APP"
-                        pic={ecommarce}
-                        details="It's frontend application, using React and Redux. "
-                    />
-                    <Card
-                        title="FOOD DELIVERY APP"
-                        pic={fooddelivery}
-                        details=" Its a fontend appplication, using React, Redux and MongoDB as database."
-                    />
-                    <Card
-                        title="COUNTRY LIST"
-                        pic={countrylist}
-                        details=" Its a fontend application using React and Redux"
-                    />
-                    <Card
-                        title="PORTFOLIO WEBPAGE"
-                        pic={portfolio}
-                        details="Its a portfolio webpage using React and Sass"
-                    />
-                    <Card
-                        title="SIMON GAME"
-                        pic={game}
-                        details=" Its the classic Simon game, using Javascript and CSS"
-                    />
+                        />
+                        <Card
+                            title="E-COMMARCE APP"
+                            pic={ecommarce}
+                            details="It's frontend application, using React and Redux. "
+                        />
+                        <Card
+                            title="FOOD DELIVERY APP"
+                            pic={fooddelivery}
+                            details=" Its a fontend appplication, using React, Redux and MongoDB as database."
+                        />
+                        <Card
+                            title="COUNTRY LIST"
+                            pic={countrylist}
+                            details=" Its a fontend application using React and Redux"
+                        />
+                        <Card
+                            title="PORTFOLIO WEBPAGE"
+                            pic={portfolio}
+                            details="Its a portfolio webpage using React and Sass"
+                        />
+                        <Card
+                            title="SIMON GAME"
+                            pic={game}
+                            details=" Its the classic Simon game, using Javascript and CSS"
+                        />
+                    </div>
                 </div>
             </section>
 
