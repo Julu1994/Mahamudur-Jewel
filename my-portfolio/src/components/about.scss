@@ -74,7 +74,14 @@
 .skill-icon{
     color:rgb(120, 96, 143);
 }
-
+@media screen and (max-width: 600px){
+    .about-right-side::after{
+        visibility: hidden;
+    }
+    .about-right-side{
+        background-image: url(./resources/jewel2.png);
+    }
+}
 @media all and (max-width: 950px) {
     .about-div {
         width: 90%;
