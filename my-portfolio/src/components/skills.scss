@@ -1,8 +1,6 @@
 @import "./mixin_var.scss";
 .skill-div {
-    width: 70%;
-    height: 20rem;
-    
+    width: 70%;    
     margin: 0 auto;
     border-radius: 1rem;
     transition: all 3s;
@@ -25,8 +23,9 @@
 }
 .skill-div-a{
     width: 100%;
-    height: 100%;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(1, 1fr);
     justify-content: center;
 }
 .logo{
@@ -60,4 +59,21 @@
 .aws{
     background-image: linear-gradient(rgba(129, 30, 146, 0.198), rgba(120, 154, 185, 0.274)),
     url(./resources/aws.png);
+}
+
+
+@media all and (max-width: 600px) {
+    .skill-div-a {
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+}
+
+@media all and (min-width: 600px) and (max-width: 900px) {
+    .skill-div-a {
+        grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+
 }
