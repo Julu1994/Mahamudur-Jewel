@@ -1,5 +1,5 @@
 import React from "react";
-import "./layout.scss";
+import "./main.scss";
 import Header from "../components/header";
 import Card from "../components/Card";
 import About from "../components/about";
