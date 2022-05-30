@@ -8,11 +8,7 @@
     border: 1px solid rgba(201, 181, 181, 0.153);
     box-shadow:  1px 4px 5px rgba(201, 193, 193, 0.125)
 }
-.grid-container{
-        // width: 100%;
-        // max-width: 60rem;
-        // margin: 5rem auto;
-}
+
 .card-grid {
         max-width: 60%;
         margin: 0 auto;
@@ -67,7 +63,23 @@
 @media all and (max-width: 600px) {
     .card-grid {
         grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
     }
 
+
+}
+
+@media all and (min-width: 600px) and (max-width: 900px) {
+    .card-grid {
+        max-width: 70%;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+}
+@media all and (min-width: 900px) and (max-width: 1200px) {
+    .card-grid {
+        max-width: 85%;
+    }
 
 }
