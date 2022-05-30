@@ -1,10 +1,10 @@
 import "./App.scss";
-import Layout from "./Layout/layout";
+import Layoutt from "./Layout/layout";
 
 function App() {
     return (
         <div className="App">
-            <Layout />
+            <Layoutt />
         </div>
     );
 }
