@@ -131,10 +131,13 @@
 
 }
 
-// @media all and (max-width: 600px) {
-//     .card-container {
-//         min-width: 15rem;
-//     }
+@media all and (max-width: 600px) {
+    .card-container {
+        min-height: 20rem;
+    }
+    .card-container__body {
+        min-height: 20rem;
+    }
 
 
-// }
+}

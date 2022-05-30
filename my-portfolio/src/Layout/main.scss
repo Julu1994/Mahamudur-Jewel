@@ -29,7 +29,7 @@
 
 
 .card-grid-header{
-    width: 30%;
+    width: 50%;
     height: 2rem;
     margin: 1.5rem auto;
 
@@ -62,7 +62,7 @@
 
 @media all and (max-width: 600px) {
     .card-grid {
-        max-width: 90%;
+        max-width: 96%;
         grid-template-columns: 1fr;
         grid-template-rows: repeat(6, 1fr);
     }
