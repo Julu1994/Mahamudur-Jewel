@@ -5,7 +5,7 @@ function Header() {
             <div className="header_box">
                 <h1>
                     <span className="heading-part-1 animate">
-                        Hi.. I am Mahamudur Rahman
+                        Hi.. I am Mahamudur Jewel
                     </span>
                     <span className="heading-part-2">
                         I am a full-stack developer
